@@ -1,0 +1,55 @@
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.delayed-button{
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  width: 100%;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 64px;
+}
+.container {
+  text-align: center;
+}
+.errr-p h1 {
+  font-size: clamp(10vw, 20vw, 300px);
+margin: 25px 0 ;
+}
+.errr-p h2 {
+  font-size: clamp(3vw, 7vw, 100px);
+
+  color: transparent;
+  text-shadow: 2px 2px 0 red, -2px -2px 0 green, 6px 0 0 violet, -6px 0 0 yellow,
+    0 -6px 0 aqua, 0 6px 0 yellowgreen;
+  color: #eee;
+}
+.errr-p h1,
+.errr-p h2 {
+  
+  line-height: clamp(5vw, 10vw, 150px);
+}
+body .material-symbols-outlined {
+  font-size: clamp(10vw, 15vw, 300px);
+  text-shadow: 2px 2px 0 red, -2px -2px 0 green, 6px 0 0 violet, -6px 0 0 yellow,
+    0 -6px 0 cyan, 0 6px 0 yellowgreen;
+}
