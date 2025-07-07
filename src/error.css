@@ -54,7 +54,7 @@ body .material-symbols-outlined {
     0 -6px 0 cyan, 0 6px 0 yellowgreen;
 }
 @media (max-width:760px){
-  .main{
+  main{
         padding: 15px;
   }
  
