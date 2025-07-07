@@ -53,3 +53,12 @@ body .material-symbols-outlined {
   text-shadow: 2px 2px 0 red, -2px -2px 0 green, 6px 0 0 violet, -6px 0 0 yellow,
     0 -6px 0 cyan, 0 6px 0 yellowgreen;
 }
+@media (max-width:760px){
+  .main{
+        padding: 15px;
+  }
+ 
+  .hero-content{
+    margin-top: 20px;
+  }
+}

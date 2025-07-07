@@ -9,7 +9,7 @@ const Header = () => {
                 <div className='grid navbar-grid'>
                     <div className='logo'>
                         <Navlink to="/" className='text-white no-underline'>
-                            <img src="/images/globe.svg" alt="globe" className='img-fluid logo-img' />
+                            <img src="https://cdn.pixabay.com/photo/2012/04/01/17/14/earth-23593_1280.png" alt="globe" className='img-fluid logo-img' width={25} />
                         </Navlink>
 
                     </div>
