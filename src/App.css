@@ -585,6 +585,9 @@ contact us Page ends here
   .grid--cols {
     grid-template-columns: 1fr;
   }
+  nav{
+    display: none;
+  }
 }
 
 /* //Loader  */
