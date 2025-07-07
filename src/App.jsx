@@ -11,8 +11,6 @@ import Error from './pages/Error';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import WOW from 'wowjs/dist/wow.js'; // <- Fix this line
-
 const router = createBrowserRouter([
   {
     path: '/',
@@ -29,7 +27,10 @@ const router = createBrowserRouter([
 
 const App = () => {
   useEffect(() => {
-    new WOW().init();
+    // ✅ Dynamically import wowjs to avoid Vite build issues
+    import('wowjs').then((mod) => {
+      new mod.WOW().init();
+    });
   }, []);
 
   return <RouterProvider router={router} />;
