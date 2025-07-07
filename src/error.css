@@ -20,7 +20,7 @@
 main {
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  height: auto;
   width: 100%;
   place-content: center;
   align-items: center;

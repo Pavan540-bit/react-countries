@@ -17,8 +17,6 @@ function Countrycard({ country }) {
                         <p className='card-title'>{country.name.common}</p>
                     </div>
 
- 
-
                 </div>
 
             </li>

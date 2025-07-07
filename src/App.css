@@ -629,7 +629,7 @@ contact us Page ends here
   background-color: tomato;
   color: white;
   display: flex;
-  height: 300px;
+  height: 200px;
   justify-content: center;
   position: relative;
   border: 2px solid transparent;
@@ -637,6 +637,6 @@ contact us Page ends here
     background-clip: border-box;
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  /* padding: 40px; */
 }
 

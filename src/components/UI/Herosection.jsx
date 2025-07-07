@@ -4,6 +4,8 @@ import { NavLink as Navlink } from 'react-router-dom'
 
 const Herosection = () => {
 
+  
+
   return (
     <main className='hero-main-section'>
       <div className='container grid grid-two-cols'>
