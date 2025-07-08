@@ -35,7 +35,7 @@ const MobileMenu = () => {
 
       {/* Slide-out Menu */}
       {isOpen && (
-        <div className="absolute top-12 left-0 w-full bg-white shadow-md p-4 z-50 transition-all duration-300">
+        <div className="absolute top-12 left-0 w-full bg-white mt-15! shadow-md p-4 z-50 transition-all duration-300">
           <ul className="flex flex-col gap-4 text-black">
             <li>
               <Navlink to="/" className="text-gray-700" onClick={() => setIsOpen(false)}>Home</Navlink>
