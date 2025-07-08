@@ -643,3 +643,23 @@ contact us Page ends here
   /* padding: 40px; */
 }
 
+@media (min-width: 760px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+
+@media (mAX-width: 760px) {
+.logo {
+    text-align: left;
+    POSITION: absolute;
+    RIGHT: 15px;
+    TOP: 15px;
+}
+.mobile-menu.relative {
+    height: 100px;
+                align-content: center;
+
+}
+}

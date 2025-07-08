@@ -1,10 +1,13 @@
 import React from 'react'
 import { NavLink as Navlink } from 'react-router-dom'
+import MobileMenu from './MobileMenu'
 
 const Header = () => {
     return (
         <header>
             <div className='container header-container'>
+
+                <MobileMenu />
 
                 <div className='grid navbar-grid'>
                     <div className='logo'>
