@@ -38,7 +38,7 @@ function Carousel() {
 
             return (
               <div className='item' key={country.id}>
-                <div className='container-card bg-blue-box text-center p-3'>
+                <div className=' bg-blue-box text-center p-3'>
                     <p className='card-description'>Capital:<span>{capital}</span></p>
             <p className='card-description'>Population:<span>{population}</span></p>
                   <h5 className='text-white'>{countryName}</h5>
