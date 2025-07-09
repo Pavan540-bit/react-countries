@@ -10,6 +10,7 @@ import AppLayout from './components/Layout/AppLayout'
 import Error from './pages/Error'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
+import Conditional from './components/Layout/Conditional'
 
 
 
@@ -58,6 +59,7 @@ const App = () => {
           <About />
           <Country />
           <Contact />
+          <Conditional />
         </div>
       </Router></RouterProvider>
 
