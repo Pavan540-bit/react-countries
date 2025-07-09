@@ -4,7 +4,7 @@ import About from './About'
 
 import Carousel from '../components/UI/Carousel'
 import Conditional from '../components/Layout/Conditional'
-import GitHubUserSearch from '../components/Layout/GitHubUserSearch'
+
  
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
    < Herosection />
    <Carousel />
    <Conditional />
-   <GitHubUserSearch />
+
    <About />
    </>
   )
