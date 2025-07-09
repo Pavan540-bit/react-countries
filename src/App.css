@@ -419,6 +419,7 @@ country Card
     width: 100%;
     max-width: 50rem;
     height: 16rem;
+    object-fit: cover;
   }
 }
 
